@@ -1,7 +1,7 @@
 # Flexbox Sensei Game
 
 Welcome to Flexbox Sensei, a fun and interactive game that will help you master Flexbox layouts like a true Sensei! 🥋🎮
-Check it out here 
+
 [Check it out here](https://flexbox-sensei.netlify.app)
 
 
