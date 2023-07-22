@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-remaining{
+  height: calc(100vh - 90px);
+}
+.bg{
+  background-image: url("https://media.giphy.com/media/l3V0hSwrWKBGIM2vS/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeBtn{
+  @apply bg-black text-white font-mono tracking-[1px] font-bold h-[56px] w-[171px] grid place-content-center shadow-xl rounded-md hover:bg-white hover:text-black hover:shadow-none hover:cursor-pointer transition-all duration-300 ease-in-out;  
+}
