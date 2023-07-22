@@ -11,15 +11,15 @@ const data = [
     cssProperties: "items-center justify-center",
   },
   {
-    task: "Make the three boxes in a row!",
+    task: "Arange the boxes at row end with reverse order!",
     choices: [
       "flex-direction: column;",
-      "flex-direction: row;",
+      "flex-direction: row-reverse;",
       "flex-wrap: wrap;",
       "align-items: flex-start;",
     ],
-    correct: "flex-direction: row;",
-    cssProperties: "flex flex-row",
+    correct: "flex-direction: row-reverse;",
+    cssProperties: "flex flex-row-reverse",
   },
   {
     task: "Space the boxes evenly!",
